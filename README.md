@@ -52,7 +52,7 @@ rule test:
 
 Simple token bucket rate limiter for HTTP requests. Uses jitter backoff right now, which is faster but more stressful than exponential. Exports the `Unitful.jl` symbols for time, so you create limiters using them as rates.
 
-The easiest application is with Julia's `asyncmap`, which implement cooperative multi-tasking:
+The easiest application is with Julia's `asyncmap`, which implements cooperative multi-tasking:
 
 ```Julia
 using RateLimiters
