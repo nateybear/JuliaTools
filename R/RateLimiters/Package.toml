@@ -1,0 +1,4 @@
+name = "RateLimiters"
+uuid = "94bfe572-be81-416c-b629-0aba67502f3a"
+repo = "https://github.com/nateybear/JuliaTools.git"
+subdir = "RateLimiters"
