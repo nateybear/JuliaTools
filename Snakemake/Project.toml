@@ -1,0 +1,14 @@
+name = "Snakemake"
+uuid = "60ba8f4c-593d-46aa-8758-bd97a13e7b03"
+version = "0.1.0"
+authors = ["Nate Hattersley <nate.hattersley@gmail.com>"]
+
+[deps]
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+LoggingExtras = "e6f89c97-d47a-5376-807f-9c37f3926c36"
+
+[compat]
+JSON3 = "1.14.3"
+Logging = "1.11.0"
+LoggingExtras = "1.2.0"
