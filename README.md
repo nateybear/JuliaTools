@@ -7,7 +7,7 @@ pkg> registry add https://github.com/nateybear/JuliaTools.git
 pkg> registry add General
 ```
 
-You want to re-add the General registry because Julia will no default to using it once you start using your own registries.
+You want to re-add the General registry because Julia will not default to using it once you start using your own registries.
 
 ### Snakemake
 
