@@ -1,4 +1,4 @@
-# Nate's Julia Packages
+# Nate's Julia Packages (WIP)
 
 These are things that I find myself re-using, but I don't think they're significant enough to publish to Julia's General registry (and I don't have time to be an active maintainer). If you want to use them yourself, you can add them as a Julia registry:
 
@@ -9,7 +9,7 @@ pkg> registry add General
 
 You want to re-add the General registry because Julia will not default to using it once you start using your own registries.
 
-### Snakemake
+## Snakemake
 
 My more-modular way of calling Snakemake by serializing config as JSON to stdin. Snakemake does this a bad way (IMO) natively, by creating a new script with a weird name in a weird directory, and hence it's harder to debug script failures.
 
@@ -48,7 +48,7 @@ rule test:
     )
 ```
 
-### RateLimiters
+## RateLimiters
 
 Simple token bucket rate limiter for HTTP requests. Uses jitter backoff right now, which is faster but more stressful than exponential. Exports the `Unitful.jl` symbols for time, so you create limiters using them as rates.
 
