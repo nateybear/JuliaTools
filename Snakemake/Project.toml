@@ -1,6 +1,6 @@
 name = "Snakemake"
 uuid = "60ba8f4c-593d-46aa-8758-bd97a13e7b03"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Nate Hattersley <nate.hattersley@gmail.com>"]
 
 [deps]
