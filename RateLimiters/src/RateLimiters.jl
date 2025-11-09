@@ -2,6 +2,7 @@ module RateLimiters
 
 export RateLimiter
 
+using Reexport
 @reexport using Unitful: @u_str, d, hr, minute, s
 
 using Dates: DateTime, now, Millisecond

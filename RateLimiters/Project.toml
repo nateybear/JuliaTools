@@ -3,8 +3,11 @@ uuid = "94bfe572-be81-416c-b629-0aba67502f3a"
 version = "0.1.0"
 authors = ["Nate Hattersley <nate.hattersley@gmail.com>"]
 
-
 [deps]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+[compat]
+Reexport = "1.2.2"
