@@ -22,7 +22,7 @@ function (@main)(_)
   with_logging() do
     # do things with the snakemake object...
   end
-return nothing
+  return nothing
 end
 ```
 
@@ -50,7 +50,7 @@ rule test:
 
 ### RateLimiters
 
-Simply token bucket rate limiter for HTTP requests. Uses jitter backoff right now, which is faster but more stressful than exponential. Exports the `Unitful.jl` symbols for time, so you create limiters using them as rates.
+Simple token bucket rate limiter for HTTP requests. Uses jitter backoff right now, which is faster but more stressful than exponential. Exports the `Unitful.jl` symbols for time, so you create limiters using them as rates.
 
 The easiest application is with Julia's `asyncmap`, which implement cooperative multi-tasking:
 
