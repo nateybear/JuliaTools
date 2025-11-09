@@ -1,4 +1,0 @@
-name = "Snakemake"
-uuid = "60ba8f4c-593d-46aa-8758-bd97a13e7b03"
-repo = "https://github.com/nateybear/JuliaTools.git"
-subdir = "Snakemake"
