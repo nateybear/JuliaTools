@@ -1,6 +1,6 @@
 name = "RateLimiters"
-uuid = "94bfe572-be81-416c-b629-0aba67502f3a"
-version = "0.1.0"
+uuid = "d1f1e75a-130f-4276-9cd1-2a4decd90cba"
+version = "0.1.1"
 authors = ["Nate Hattersley <nate.hattersley@gmail.com>"]
 
 [deps]
