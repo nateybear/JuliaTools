@@ -1,0 +1,5 @@
+name = "Nate"
+uuid = "cf6aba5e-4589-434e-affe-f0aa648ef8c6"
+repo = "https://github.com/nateybear/JuliaTools.git"
+
+[packages]
