@@ -37,4 +37,9 @@ function with_logging(f)
         ),
     )
 end
+
+# allow user to write a py file to their directory to use in Snakefile
+snakemake_pycall = readlines("julia.py")
+write_pyfile(where = "julia.py") = write(where, join(snakemake_pycall, '\n'))
+
 end
