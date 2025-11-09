@@ -64,6 +64,8 @@ limiter = RateLimiter(3 / s, 10_000 / d)
 collection = 1:100 # what you're mapping over
 
 results = asyncmap(collection) do i
+  # compare to
+  # HTTP.get("https://httpbin.org/stream/$i")
   HTTP.get(limiter, "https://httpbin.org/stream/$i")
 end
 ```
