@@ -9,6 +9,16 @@ pkg> registry add General
 
 You want to re-add the General registry because Julia will not default to using it once you start using your own registries.
 
+## Here
+
+A basic port of R's `here` package for project-relative paths. Foolproof way to ensure your paths always point to the same place.
+
+```Julia
+using Here
+
+CSV.read(here("data/my_file.csv"), DataFrame)
+```
+
 ## Snakemake
 
 My more-modular way of calling Snakemake by serializing config as JSON to stdin. Snakemake does this a bad way (IMO) natively, by creating a new script with a weird name in a weird directory, and hence it's harder to debug script failures.
