@@ -19,7 +19,7 @@ using Here
 CSV.read(here("data/my_file.csv"), DataFrame)
 ```
 
-Default is to specify functions relative to wherever your Project.toml file is located. You can change this by calling `i_am("some/file/within/your/project.jl")` at the top of your script, which will set the base folder to the directory containing that file.
+Default is to specify functions relative to wherever your Project.toml file is located. You can change this by calling `Here.i_am("some/file/within/your/project.jl")` at the top of your script, which will set the base folder to the directory containing that file.
 
 ## Snakemake
 
