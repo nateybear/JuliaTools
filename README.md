@@ -19,6 +19,8 @@ using Here
 CSV.read(here("data/my_file.csv"), DataFrame)
 ```
 
+Default is to specify functions relative to wherever your Project.toml file is located. You can change this by calling `i_am("some/file/within/your/project.jl")` at the top of your script, which will set the base folder to the directory containing that file.
+
 ## Snakemake
 
 My more-modular way of calling Snakemake by serializing config as JSON to stdin. Snakemake does this a bad way (IMO) natively, by creating a new script with a weird name in a weird directory, and hence it's harder to debug script failures.
